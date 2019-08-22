@@ -1,0 +1,24 @@
+#
+# Copyright (c) 2018 Nordic Semiconductor ASA
+#
+# SPDX-License-Identifier: LicenseRef-BSD-5-Clause-Nordic
+#
+
+menu "Application"
+config UDP_SERVER_HOST
+	string "Host of UDP server"
+	default ""
+
+config UDP_SERVER_PORT
+	int "UDP port"
+	default "42501"
+
+config SEND_INTERVAL_MILLIS
+	int "Interval for sending UDP packets"
+	default 1000
+
+endmenu
+
+menu "Zephyr Kernel"
+source "$ZEPHYR_BASE/Kconfig.zephyr"
+endmenu
