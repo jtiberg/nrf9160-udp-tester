@@ -1,2 +1,2 @@
 # nrf9160-udp-tester
-Test
+Simple application for testing IP connectivity on Nordic Semiconductors nRF9160.
