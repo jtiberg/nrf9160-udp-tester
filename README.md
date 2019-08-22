@@ -1,7 +1,7 @@
 # nrf9160-udp-tester
 Simple application for testing IP connectivity on Nordic Semiconductors nRF9160.
 
-## Build the application (on Linux)
+## Building the application (on Linux)
 Make sure you have Nordic Semiconductors Connect SDK installed (https://github.com/NordicPlayground/fw-nrfconnect-nrf)
 
 Set environment variable NCS_BASE to Connect SDK base path (or substitute it in CMakeLists.txt)
