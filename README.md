@@ -13,7 +13,7 @@ mkdir build-dk && cd build-dk && cmake -GNinja -DBOARD=$board .. && ninja
 
 
 ## Example UDP server
-Use netcat as a server for manual testing (nc -uvkl 42501)
+Use the python3 application server/udp_server.py (prints time of recv, origin and message content) OR just netcat (nc -uvkl 42501)
 
 
 ## Why does this project exist?
